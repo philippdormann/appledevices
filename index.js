@@ -1,5 +1,4 @@
 const devices = [];
-function getDeviceNameByIdentifier(identifier) {
-    return devices.find(d => d.identifier === identifier);
+export function getDeviceNameByIdentifier(identifier) {
+    return devices.find(d => d.id === identifier);
 }
-exports.getDeviceNameByIdentifier = getDeviceNameByIdentifier;

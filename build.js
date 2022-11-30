@@ -9,6 +9,7 @@ got.get('https://gist.githubusercontent.com/adamawolf/3048717/raw/1ee7e1a93dff94
         const info = d.split(" : ");
         array.push({ id: info[0], device: info[1] })
     });
-    console.log(array);
-    // fs.writeFileSync();
+    let filecontent = fs.readFileSync("./index.js", { encoding: "utf8" });
+    filecontent = filecontent.replace("const devices = [];", `const devices = [${JSON.stringify(array)}];`)
+    fs.writeFileSync("./index.js", filecontent);
 })
