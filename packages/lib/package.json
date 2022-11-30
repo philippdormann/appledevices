@@ -1,0 +1,16 @@
+{
+  "name": "@philippdormann/appledevices",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/philippdormann/appledevices",
+  "author": "Philipp Dormann <hi@philippdormann.de>",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.js"
+    },
+    "./*": "./*"
+  }
+}

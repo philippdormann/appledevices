@@ -1,16 +1,15 @@
 {
-  "name": "@philippdormann/appledevices",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "bumpp package.json packages/*/package.json --all",
+    "ci:publish": "zx scripts/publish.js",
+    "dev": "pnpm -C packages/example run dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "got": "^12.5.3"
+    "bumpp": "^8.2.1",
+    "got": "^12.5.3",
+    "zx": "^7.1.1"
   }
 }
