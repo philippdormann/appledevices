@@ -1,6 +1,6 @@
 {
   "name": "@philippdormann/appledevices",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/philippdormann/appledevices",
   "author": "Philipp Dormann <hi@philippdormann.de>",
