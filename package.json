@@ -10,7 +10,7 @@
   "type": "module",
   "devDependencies": {
     "bumpp": "^9.0.0",
-    "got": "^12.6.0",
-    "zx": "^7.2.0"
+    "got": "^14.4.2",
+    "zx": "^8.1.8"
   }
 }
