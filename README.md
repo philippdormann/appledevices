@@ -1,3 +1,6 @@
+> [!NOTE]
+> deprecated in favor of https://github.com/philippdormann/mobiledevices
+
 # @philippdormann/appledevices
 npm package for parsing apple device code names to readable device names
 
